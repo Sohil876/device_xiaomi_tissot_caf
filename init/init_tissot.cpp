@@ -31,7 +31,9 @@
 
 #include <android-base/properties.h>
 #include "property_service.h"
-#include "vendor_init.h"
+
+namespace android {
+namespace init {
 
 using android::init::property_set;
 
@@ -55,4 +57,6 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 
 void vendor_load_properties()
 {
+}
+}
 }
