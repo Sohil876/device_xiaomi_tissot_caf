@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tissot.mk
+    $(LOCAL_DIR)/p404_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    p404_tissot-user \
+    p404_tissot-userdebug \
+    p404_tissot-eng
