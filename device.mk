@@ -101,7 +101,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 PRODUCT_SOONG_NAMESPACES += \
-    hardware/qcom-caf/msm8996
+    hardware/qcom \
+    hardware/qcom/audio \
+    hardware/qcom/display \
+    hardware/qcom/media
 
 # Update engine
 PRODUCT_PACKAGES += \
